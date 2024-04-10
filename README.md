@@ -6,11 +6,10 @@ Description:
 This PHP script is responsible for displaying detailed information about a specific movie on a streaming website. Here's a breakdown of its functionality:
 
 Session Management:
-
 » The script starts a session to manage user login status.
 » It checks if the user is logged in. If yes, it retrieves the username; otherwise, it sets the username to "Gast" (guest).
-» Movie Information Retrieval:
 
+Movie Information Retrieval:
 » The script checks if a movie ID (film_id) is provided via the URL parameters.
 » If a movie ID is provided, it connects to a MySQL database to fetch detailed information about the movie, including its title, image, description, and directors.
 » If no movie ID is provided, the script redirects the user to the homepage or performs error handling.
